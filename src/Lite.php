@@ -3,7 +3,7 @@ namespace PhalApi\Redis;
 
 use \PhalApi\Cache\RedisCache;
 /**
- * 在index.php中注册
+ * di.php中注册
  * \PhalApi\DI()->redis = function () {
  *       return new \PhalApi\Redis\Lite(\PhalApi\DI()->config->get("app.redis.servers"));
  *  };
