@@ -1,5 +1,5 @@
 {
-  "name": "laibao/redis",
+  "name": "laibao/phalapi-redis",
   "description": "PhalApi 2.x 扩展类库 - Redis 丰富基础redisCache类功能,更贴切复杂场景下的redis使用。",
   "version": "1.0.0",
   "license": "GPL-3.0-or-later",
