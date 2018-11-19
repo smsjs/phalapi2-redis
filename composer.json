@@ -1,0 +1,22 @@
+{
+  "name": "laibao/redis",
+  "description": "PhalApi 2.x 扩展类库 - Redis 丰富基础redisCache类功能,更贴切复杂场景下的redis使用。",
+  "keywords": [
+    "phalapi",
+    "redis",
+    "phalapi-redis"
+  ],
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "type": "library",
+  "authors": [
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaiBao\\Redis\\": "src/"
+    }
+  }
+}
