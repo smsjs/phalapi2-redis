@@ -15,6 +15,7 @@ use \PhalApi\Cache\RedisCache;
  * \PhalApi\DI()->redis->get_forever(键名, 库名);
  *
  */
+
 class Lite extends RedisCache {
 
     private $db_old;
