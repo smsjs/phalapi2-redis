@@ -1,11 +1,11 @@
 <?php
-namespace PhalApi\Redis;
+namespace LaiBao\Redis;
 
 use \PhalApi\Cache\RedisCache;
 /**
  * di.php中注册
  * \PhalApi\DI()->redis = function () {
- *       return new \PhalApi\Redis\Lite(\PhalApi\DI()->config->get("app.redis.servers"));
+ *       return new \LaiBao\Redis\Lite(\PhalApi\DI()->config->get("app.redis.servers"));
  *  };
  *
  * 例子:
