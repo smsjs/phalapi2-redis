@@ -87,7 +87,7 @@ class Lite extends RedisCache {
     /**
      * 得到一个key的生存时间
      */
-    protected function get_time_ttl($key){
+    public function get_time_ttl($key){
         $value = $this->redis->ttl($this->formatKey($key));
         return $value !== FALSE ? $value : NULL;
     }
